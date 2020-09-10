@@ -5,8 +5,7 @@ from django.http import HttpResponse
 # Create your views here.
 
 def home(request):
-    return render(request, 'generator/home.html', 
-                  {'password': 'Wtlnc,r2te0tb.'})
+    return render(request, 'generator/home.html')
 
 def password(request):
     return render(request, 'generator/password.html')
