@@ -1,7 +1,7 @@
 <h1>Password Generator</h1>
 
 <form action="{% url 'password' %}">
-	<select name"length">
+	<select name="length">
 		<option value="6">6 charactors</option>
 		<option value="7">7 charactors</option>
 		<option value="8">8 charactors</option>
@@ -20,7 +20,7 @@
 	<input type="checkbox" name="numbers"> Numbers
 	<br />
 	<input type="checkbox" name="special"> Special Char
-	
+
 	<br />
 	<br />
 	<input type="submit" value="Generate Password">
